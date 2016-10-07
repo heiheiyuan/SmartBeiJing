@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/item_pic_iv"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="#33000000"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/item_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/item_pic_iv"
+        android:singleLine="true"
+        android:text="我是标题,测试测试...."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/item_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/item_pic_iv"
+        android:layout_alignLeft="@id/item_title_tv"
+        android:text="2016-05-29"
+        android:textColor="#88000000" />
+
+    <ImageView
+        android:id="@+id/item_comment_ib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/item_pic_iv"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/icon_news_comment_num" />
+
+</RelativeLayout>

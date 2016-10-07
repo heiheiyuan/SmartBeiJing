@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_red_bg" >
+
+    <TextView
+        android:id="@+id/tv_basepager_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="标题"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/ib_basepager_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/img_menu" />
+
+    <ImageButton
+        android:id="@+id/ib_titlebar_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/back"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ib_titlebar_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/icon_share"
+        android:visibility="gone" />
+
+
+    <ImageButton
+        android:id="@+id/ib_titlebar_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/icon_pic_grid_type"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/ib_titlebar_textsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/ib_titlebar_share"
+        android:background="@drawable/icon_textsize"
+        android:visibility="gone" />
+
+</RelativeLayout>
